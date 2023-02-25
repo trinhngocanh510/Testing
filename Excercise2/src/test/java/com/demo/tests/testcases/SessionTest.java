@@ -5,7 +5,6 @@ import com.demo.tests.hooks.BaseTest;
 import com.demo.tests.steps.SessionSteps;
 import org.junit.Test;
 
-
 public class SessionTest extends BaseTest {
 
   @Test
@@ -16,7 +15,5 @@ public class SessionTest extends BaseTest {
   }
 
   @Test
-  public void checkInformation(){
-
-  }
+  public void checkInformation() {}
 }

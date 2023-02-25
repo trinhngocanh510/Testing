@@ -1,7 +1,6 @@
 package com.demo.components.base;
 
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 

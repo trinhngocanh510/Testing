@@ -15,5 +15,10 @@ public class SessionTest extends BaseTest {
   }
 
   @Test
-  public void checkInformation() {}
+  public void checkUI() {
+    SessionSteps sessionSteps = new SessionSteps();
+    sessionSteps.emailPlaceholderAppearCorrect(webDriver.getDriver());
+    sessionSteps.passwordPlaceholderAppearCorrect(webDriver.getDriver());
+    sessionSteps.rememberChecked(webDriver.getDriver());
+  }
 }

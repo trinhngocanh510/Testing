@@ -28,4 +28,10 @@ public class SessionSteps {
     LoginPage loginPage = new LoginPage(driver);
     Assert.assertEquals(loginPage.getPlaceholderPasswordField(),"Password");
   }
+
+  public void rememberChecked(WebDriver driver) {
+    LoginPage loginPage = new LoginPage(driver);
+    loginPage.clickRememberCheckbox(driver);
+    Assert.assertTrue(loginPage.isRememberChecked());
+  }
 }
